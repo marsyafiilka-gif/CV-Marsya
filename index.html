@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Online | Portofolio Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">MyPortfolio.</h2>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#keterampilan">Keterampilan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profil" class="hero">
+            <div class="hero-text">
+                <p class="greeting">HALO, SELAMAT DATANG!</p>
+                <h1><Marsya Fi Ilka></h1>
+                <h3>Mahasiswa Teknik Informatika</h3>
+                <p>
+                    Saya adalah mahasiswa yang tertarik pada
+                    teknologi informasi, pengembangan website,
+                    dan desain antarmuka. Saya senang mempelajari
+                    hal baru serta mengembangkan kemampuan di bidang teknologi.
+                </p>
+                <a href="#kontak" class="btn">Hubungi Saya</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="image.jpeg" alt="Foto profil pribadi">
+            </div>
+        </section>
+
+        <section id="pendidikan" class="section">
+            <h2>Pendidikan & Pengalaman</h2>
+
+            <div class="card-container">
+                <div class="card">
+                    <h3>Pendidikan</h3>
+                    <p><strong>Institut Teknologi PLN</strong></p>
+                    <p>Program Studi Teknik Informatika</p>
+                    <p>2025 - Sekarang</p>
+                </div>
+
+                <div class="card">
+                    <h3>Pengalaman Organisasi</h3>
+                    <p>Anggota organisasi mahasiswa.</p>
+                    <p>
+                        Mengembangkan kemampuan kerja sama,
+                        komunikasi, dan tanggung jawab.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Proyek</h3>
+                    <p>Website sederhana menggunakan HTML dan CSS.</p>
+                    <p>Mempelajari struktur halaman dan desain web.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="keterampilan" class="section skills-section">
+            <h2>Keterampilan</h2>
+
+            <div class="skills-container">
+                <div class="card">
+                    <h3>Hard Skills</h3>
+                    <ul>
+                        <li>HTML dasar</li>
+                        <li>CSS dasar</li>
+                        <li>Python dasar</li>
+                        <li>Microsoft Office</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Komunikasi</li>
+                        <li>Kerja sama tim</li>
+                        <li>Manajemen waktu</li>
+                        <li>Kemampuan beradaptasi</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="section">
+            <h2>Hubungi Saya</h2>
+            <p class="contact-intro">
+                Silakan isi formulir berikut untuk menghubungi saya.
+            </p>
+
+            <form class="contact-form"
+                  action="mailto:emailkamu@example.com"
+                  method="post"
+                  enctype="text/plain">
+
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="Nama"
+                       placeholder="Masukkan nama kamu" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email"
+                       placeholder="nama@email.com" required>
+
+                <label for="telepon">Nomor Kontak</label>
+                <input type="tel" id="telepon" name="Telepon"
+                       placeholder="Masukkan nomor kontak">
+
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="Pesan" rows="5"
+                          placeholder="Tulis pesan kamu..."
+                          required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank"
+                   rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/" target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>& copy; 2026 Nama Lengkap Kamu. Dibuat dengan HTML & CSS.</p>
+    </footer>
+
+</body>
+</html>
